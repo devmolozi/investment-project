@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/314820c3c8.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/static/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/style.css">
+
+    <title>Investment</title>
+</head>
+
+<body>
+
+    <section id="corpo-top">
+
+        <div id="tittle">
+            <h1>I N V E S T M E N T</h1>
+        </div>
+
+        <div id="info">
+
+            <p>Rendimento de 10% ao mês, retirada antes do prazo pode resultar em multa! (para retirada a qualquer
+                momento sera descontado 1,5% do seu rendimento)</p>
+
+        </div>
+
+        <div id="qtd-options">
+
+            <div class="qtd">
+
+                <h3>INVESTIMENTO</h3>
+                <p class="subt">ULTIMOS 15 DIAS</p>
+                <p class="total-invest">R$ 1.978,13</p>
+
+
+            </div>
+
+            <div class="qtd">
+
+                <h3>DURAÇÃO DE MAQUINA</h3>
+                <p class="subt">TEMPO RESTANTE</p>
+                <p class="total-dias">72 horas e 45 minutos</p>
+
+            </div>
+
+            <div class="qtd">
+
+                <h3>RENDIMENTO</h3>
+                <p class="subt">SEU RENDIMENTO</p>
+                <p class="total-rendimento">R$ 2.697,90</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="corpo-botton">
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-house"></i>
+            <a href="{{ url_for('homePage') }}">HOME</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-money-bill-transfer"></i>
+            <a href="{{ url_for('saque') }}">SAQUE</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-robot"></i>
+            <a href="{{ url_for('maquinas') }}">MAQUINAS</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-user"></i>
+            <a href="{{ url_for('conta') }}">CONTA</a>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
