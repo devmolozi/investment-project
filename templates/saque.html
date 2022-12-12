@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="static/validar_senha.js"></script>
+    <script src="https://kit.fontawesome.com/314820c3c8.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/static/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/saque.css">
+    <link rel="stylesheet" href="static/conta.css">
+
+    <title>Investment - Saque</title>
+</head>
+
+<body>
+
+    <section id="corpo-top">
+
+        <div id="tittle">
+            <h1>I N V E S T M E N T</h1>
+        </div>
+
+
+        <div id="qtd-options">
+
+            <div class="log">
+
+
+                <form name="formuser">
+
+                    <h3>SAQUE PIX</h3>
+
+
+                    <p>Dinheiro disponível para saque: R$ 1.290,90</p>
+                    <input type="number" name="senha" placeholder="Digite a quantia a ser retirada">
+                    <input type="number" name="rep_senha" placeholder="Digite sua chave PIX ( CPF )">
+                    <input class="btn-cadastro" type="submit" name="acao" value="Confirmar">
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="corpo-botton">
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-house"></i>
+            <a href="{{ url_for('homePage') }}">HOME</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-money-bill-transfer"></i>
+            <a href="{{ url_for('saque') }}">SAQUE</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-robot"></i>
+            <a href="{{ url_for('maquinas') }}">MAQUINAS</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-user"></i>
+            <a href="{{ url_for('conta') }}">CONTA</a>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="static/validar_senha.js"></script>
+    <script src="https://kit.fontawesome.com/314820c3c8.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/static/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/conta.css">
+
+    <title>Investment - Cadastro</title>
+</head>
+
+<body>
+
+    <section id="corpo-top">
+
+        <div id="tittle">
+            <h1>I N V E S T M E N T</h1>
+        </div>
+
+
+        <div id="qtd-options">
+
+            <div class="log">
+
+
+
+                <form name="formuser">
+
+                    <h3>CADASTRO DE CONTA</h3>
+
+
+                    <input type="email" name="user" placeholder="Digite seu e-mail">
+                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" name="rep_senha" placeholder="Confirme sua senha">
+                    <br>
+                    <a class="cont-on" href="{{ url_for('login') }}">Já tem uma conta? Entre agora</a>
+                    <input class="btn-cadastro" type="submit" name="acao" value="Criar conta"
+                        onclick="return validar()">
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="corpo-botton">
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-house"></i>
+            <a href="{{ url_for('homePage') }}">HOME</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-money-bill-transfer"></i>
+            <a href="{{ url_for('saque') }}">SAQUE</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-robot"></i>
+            <a href="{{ url_for('maquinas') }}">MAQUINAS</a>
+
+        </div>
+
+        <div class="body-botton">
+
+            <i class="fa-solid fa-user"></i>
+            <a href="{{ url_for('conta') }}">CONTA</a>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+
+
+</html>
