@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="/static/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/conta.css">
+    <link rel="stylesheet" href="static/responsividade.css">
 
     <title>Investment - Cadastro</title>
 </head>
@@ -20,7 +21,7 @@
     <section id="corpo-top">
 
         <div id="tittle">
-            <h1>I N V E S T M E N T</h1>
+            <h1 style="cursor: pointer;">I N V E S T M E N T</h1>
         </div>
 
 
@@ -39,9 +40,9 @@
                     <input type="password" name="senha" placeholder="Digite sua senha">
                     <input type="password" name="rep_senha" placeholder="Confirme sua senha">
                     <br>
-                    <a class="cont-on" href="{{ url_for('login') }}">Já tem uma conta? Entre agora</a>
-                    <input class="btn-cadastro" type="submit" name="acao" value="Criar conta"
-                        onclick="return validar()">
+                    <p>Já tem uma conta? <a href="{{ url_for('login') }}">Entre agora</a></p>
+                    <input class="btn-cadastro" type="submit" name="acao" value="Criar conta" onclick="return validar()">
+                
 
                 </form>
 

@@ -48,8 +48,28 @@ form h3 {
 }
 
 .cont-on {
-    color: grey;
+    color: white;
     text-decoration: none;
     background-color: #293544;
     text-align: right;
+}
+
+.cont-on {
+    color: white;
+    text-decoration: none;
+    background-color: #293544;
+    text-align: right;
+}
+
+p{
+    padding: 5px;
+    font-size: 16px;
+    color: grey;
+    background-color: #293544;
+}
+
+a{
+    background-color: #293544;
+    color: white;
+    text-decoration: none;
 }
