@@ -19,6 +19,9 @@
 @media screen and (max-width: 1280px ){
     #corpo-botton {
         margin-top: 11%;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 
     .qtd{
@@ -32,6 +35,9 @@
 
 @media screen and (max-width: 768px ){
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         margin-top: 11%;
     }
 
@@ -48,6 +54,9 @@
 
 @media screen and (max-width: 375px ){
     #corpo-botton {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         margin-top: 11%;
     }
 
