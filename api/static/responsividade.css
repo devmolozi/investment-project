@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 375px ){
     #corpo-botton {
-        position: absolute;
+        position: static;
         bottom: 0;
         width: 100%;
         margin-top: 11%;
@@ -79,6 +79,9 @@
 
 @media screen and (max-width: 384px ){
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         margin-top: 11%;
     }
 
@@ -101,6 +104,9 @@
 
 @media screen and (max-width: 412px ){
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         margin-top: 11%;
     }
 
@@ -154,6 +160,7 @@
 @media screen and (max-width: 820px ){
 
     #corpo-top {
+        
         color: white;
         width: 100%;
         background-color: #111821;
@@ -161,6 +168,9 @@
     }
     
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
         display: flex;
@@ -277,6 +287,9 @@
     }
     
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
         display: flex;
@@ -394,6 +407,9 @@
     }
     
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
         display: flex;
@@ -510,6 +526,9 @@
     }
     
     #corpo-botton {
+        position: static;
+        bottom: 0;
+        width: 100%;
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
         display: flex;
