@@ -19,9 +19,14 @@ def maquinas():
     return render_template('maquinas.html')
 
 
-@app.route('/cadastro')
+@app.route('/conta')
 def conta():
     return render_template('conta.html')
+
+@app.route('/cadastro')
+def cadastro():
+    return render_template('cadastro.html')
+
 
 
 @app.route('/login')

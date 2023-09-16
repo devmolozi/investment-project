@@ -27,28 +27,25 @@
 
         <div id="qtd-options">
 
-            <div class="conta">
+            <div class="log">
+
+
+
+                <form name="formuser">
+
+                    <h3>CADASTRO DE CONTA</h3>
+
+
+                    <input type="email" name="user" placeholder="Digite seu e-mail">
+                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" name="rep_senha" placeholder="Confirme sua senha">
+                    <br>
+                    <p>Já tem uma conta? <a href="{{ url_for('login') }}">Entre agora</a></p>
+                    <input class="btn-cadastro" type="submit" name="acao" value="Criar conta" onclick="return validar()">
                 
-                <img src="static/perfil.jpg" alt="">
 
-                <h3>Name Usuario</h3>
+                </form>
 
-                <h3>ID: 0223842429</h3>
-
-                <h3>email@email.com</h3>
-
-                <a href="">Mudar senha</a>
-
-                <div class="links-cont"> 
-
-                
-
-                <br>
-
-                <a href="">Logout</a>
-            </div>
-
-              
 
             </div>
 
