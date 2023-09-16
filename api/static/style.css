@@ -69,11 +69,11 @@ body::-webkit-scrollbar {
     border-bottom-right-radius: 10px;
     border-top: 4px solid #1d2a3a;
     
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 250px;
+    width: 300px;
     background-color: #293544;
 }
 
